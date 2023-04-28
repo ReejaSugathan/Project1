@@ -4,7 +4,7 @@
   <artifactId>MevanTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 <build>
-<plugin>
+<plugins>
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-compiler-plugin</artifactId>
@@ -24,6 +24,6 @@
 </archive>
 </configuration>
 </plugin>
-</plugin>
+</plugins>
 </build>
 </project>
