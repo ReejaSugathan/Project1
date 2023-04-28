@@ -3,7 +3,7 @@
   <groupId>Obsqura</groupId>
   <artifactId>MevanTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-<build>
+ <build>
 <plugins>
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
@@ -13,13 +13,17 @@
 <target>1.8</target>
 </configuration>
 </plugin>
+
+
+
+
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-jar-plugin</artifactId>
 <configuration>
 <archive>
 <manifest>
-<mainClass>hello.Hellopgm</mainClass>
+<mainClass>testhello.HelloTest</mainClass>
 </manifest>
 </archive>
 </configuration>
